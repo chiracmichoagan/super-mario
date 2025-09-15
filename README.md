@@ -1,4 +1,3 @@
-
 # 🎬 Super Mario - Landing Page
 
 Ce projet est une **landing page** interactive dédiée au film **Super Mario**, avec une vidéo en arrière-plan et une fenêtre modale pour visionner la bande-annonce YouTube.
@@ -7,22 +6,22 @@ Ce projet est une **landing page** interactive dédiée au film **Super Mario**,
 
 ## 🚀 Fonctionnalités
 
-- 🎥 **Vidéo en arrière-plan** qui s’adapte à tous les écrans (PC, tablette, mobile).  
-- 🎨 **Design moderne et responsive** avec `flexbox` et `media queries`.  
-- 🖼️ **Images et logo personnalisés**.  
-- 📺 **Fenêtre modale** (popup) permettant de lire le trailer YouTube.  
-- 🔴 **Bouton d’action animé** ("SEE THE TRAILER").  
+- 🎥 **Vidéo en arrière-plan** qui s’adapte à tous les écrans (PC, tablette, mobile).
+- 🎨 **Design moderne et responsive** avec `flexbox` et `media queries`.
+- 🖼️ **Images et logo personnalisés**.
+- 📺 **Fenêtre modale** (popup) permettant de lire le trailer YouTube.
+- 🔴 **Bouton d’action animé** ("SEE THE TRAILER").
 - ⚡ **Interactivité en JavaScript** :
-  - Ouverture/fermeture de la modal.  
-  - Lecture/arrêt automatique de la vidéo.  
+  - Ouverture/fermeture de la modal.
+  - Lecture/arrêt automatique de la vidéo.
 
 ---
 
 ## 🛠️ Technologies utilisées
 
-- **HTML5**  
-- **CSS3** (avec responsive design)  
-- **JavaScript Vanilla (ES6)**  
+- **HTML5**
+- **CSS3** (avec responsive design)
+- **JavaScript Vanilla (ES6)**
 
 ---
 
@@ -44,16 +43,24 @@ Ce projet est une **landing page** interactive dédiée au film **Super Mario**,
 │   └── 📁 js
 │       └── index.js         # Script pour gérer la modal et la vidéo
 
-````
+```
+
+## Live link
+
+clique pour voir le projet en ligne
+
+https://super-mario-theta-seven.vercel.app/
 
 ---
 
 ## ⚙️ Installation & utilisation
 
-1. **Clone le projet** ou télécharge le ZIP.  
+1. **Clone le projet** ou télécharge le ZIP.
    ```bash
    git clone https://github.com/chiracmichoagan/super-mario.git
-````
+   ```
+
+```
 
 2. **Place toutes les images et vidéos** dans les dossiers correspondants (`src/img`, `src/video`).
 
@@ -75,3 +82,4 @@ Ce projet est une **landing page** interactive dédiée au film **Super Mario**,
 
 Développé par **\[Ton Chirac Dona Michoagan]** ✨
 Projet éducatif pour pratiquer **HTML, CSS et JavaScript**.
+```
