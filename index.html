@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Super Mario</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./src/img/favicon.ico"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+
+    <link rel="stylesheet" href="./src/css/estilos.css" />
+
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+  </head>
+  <body>
+    <div class="fundo-video">
+      <video class="video" autoplay loop muted>
+        <source src="./src/video/video-mario.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <header class="cabecalho">
+      <a href="">
+        <img class="logo" src="./src/img/logo-chapeu-mario.png" alt="logo chapeau Mario" />
+      </a>
+      <nav>
+        <ul class="menu">
+          <li><a href="#">Acceuil</a></li>
+          <li><a href="#">Détailles</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <div class="informacoes">
+        <img class="imagem-titulo" src="./src/img/titulo.png" alt="image de titulo" />
+        <p class="descricao">
+          Mario est plombier avec son frère Luigi. Un jour, ils se retrouvent au
+          Royaume Champignon, dirigé par la Princesse Peach, mais menacé par le
+          Roi des Koopas, qui fait tout pour régner sur le monde.
+        </p>
+        <button class="botao-trailer">VOIR LA BANDE-ANNONCE</button>
+      </div>
+
+      <img class="mario" src="./src/img/super-mario-chars.png" alt="image de mario chars" />
+
+      <div class="modal">
+        <div class="conteudo-modal">
+          <span class="fechar-modal">X</span>
+          <iframe
+            id="video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/Cb4WV4aXBpk"
+            title="Trailler official"
+            frameborder="1"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
